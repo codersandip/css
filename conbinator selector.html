@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conbinato Selector</title>
+    <style>
+
+        
+        p {
+            font-size: 50px;
+        }
+        .descendant-selector h1 {
+            color: red;
+        }
+        .descendant-selector p {
+            color: green;
+        }
+
+        .child-selector > h1 {
+            color: red;
+        }
+        .child-selector > * {
+            color: green;
+        }
+
+        .adjecent-sibling-selector + h1 {
+            color: red;
+        }
+        .general-sibling-selector ~ h1 {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h3>Descendant Selector</h3>
+
+    <div class="descendant-selector">
+        <h1>Descendant Selector</h1>
+        <div>
+            <p>Descendant Selector</p>
+        </div>
+        
+    </div>
+
+    <div class="child-selector">
+        <h1>Descendant Selector</h1>
+        <div>
+            <p>Descendant Selector</p>
+        </div>
+        <p>Sandip B. Tawhare</p>
+    </div>
+    <div class="adjecent-sibling-selector">
+        <h2>Adjecent Sibling Selector</h2>
+    </div>
+    <p>Adjecent Sibling Selector</p>
+    <h1>Adjecent Sibling Selector</h1>
+    <h1>Adjecent Sibling Selector</h1>
+    
+    <div class="general-sibling-selector">
+        <h2>General Sibling Selector</h2>
+    </div>
+    <p>General Sibling Selector</p>
+    <h1>General Sibling Selector</h1>
+    <h1>General Sibling Selector</h1>
+
+</body>
+</html>
+
+<!-- descendantSelector   camel case
+descendant_selector  snake case -->

@@ -1,0 +1,44 @@
+
+
+
+
+1. Frontend   html tags attribute - element   website scalaton
+2. stying  - css = property value selector    makeup 
+3. scripting - js - javascript  -      event handelling
+
+browser pe
+
+4. backend
+sever ke pass 
+
+
+
+Syntax Of Css
+
+
+ /* selector  property value */
+
+
+
+selector {
+    property:value;
+    property:value;
+    property:value;
+    property:value;
+    property:value;
+    property:value;
+    property:value;
+    property:value;
+    property:value;
+    property:value;
+    property:value;
+    property:value;
+}
+
+
+
+
+css ke types
+1. inline css 
+2. internal css
+3. external css

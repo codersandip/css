@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class Selector</title>
+
+    <style>
+        a.link:link {
+            color: red;
+        }
+
+        a.link:hover {
+            color: blue;
+            font-size: 25px;
+        }
+
+        input:focus {
+            color: yellow;
+        }
+
+        a:visited {
+            color: green;
+        }
+
+        p:first-child {
+            color: red;
+        }
+       /*
+        
+         */
+    </style>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <h1 style="text-align: center;">Pseudo Class Selector</h1>
+    <a class="link" href="https://www.google.com" target="_blank">Google</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a class="link" href="https://map.google.com" target="_blank">Google Map</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a class="link" href="https://www.mockaroo.com/" target="_blank">Mockaroo</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <input type="text">
+    <!-- link - unclicked link
+    hover - on hover
+    active - on focus
+    visited - on click -->
+
+
+    <script>
+        $(document).ready(function(){
+            // $('a').hover(function(e){
+                // alert("on hover - " + e.target.href);
+            // })
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+active 
+checked
+disabled
+empty 
+first-child
+focus
+hover
+in-range
+invalid
+last-child
+last-of-type
+link
+not
+optional
+out-of-range
+placeholder-shown
+read-only
+read-write
+required
+root
+target
+valid
+visited
+nth-child(n)
+nth-last-child(n)
+nth-last-of-type(n)
+nth-of-type(n)
